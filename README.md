@@ -14,3 +14,6 @@ This project is a distributed system including of a C++ application and a Postgr
 
 - PostgreSQL Image: postgres:16
 - Application Image: ahmedijaz1/student-sis-app:latest
+
+# Final Release
+- https://github.com/ulask8139/System-Programming-Term-Project/releases/tag/v1.0
