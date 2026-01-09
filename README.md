@@ -12,5 +12,5 @@ This project is a distributed system including of a C++ application and a Postgr
 
 # Docker Hub Images
 
-- PosgreSQL Image: ..
-- Application Image: ..
+- PostgreSQL Image: postgres:16
+- Application Image: ahmedijaz1/student-sis-app:latest
