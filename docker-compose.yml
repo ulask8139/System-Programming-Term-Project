@@ -1,0 +1,28 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: studentdb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - sis_net
+
+  app:
+    build: .
+    depends_on:
+      - db
+    environment:
+      DB_CONNINFO: "host=db port=5432 dbname=studentdb user=postgres password=postgres"
+    networks:
+      - sis_net
+    stdin_open: true
+    tty: true
+
+volumes:
+  db_data:
+
+networks:
+  sis_net:
