@@ -7,7 +7,7 @@ This project is a distributed system including of a C++ application and a Postgr
 # Team Members 
 
 - Student 1 (Project Manager): Ulaş Koyuncu - 230304035 - ulas.koyuncu@stu.fbu.edu.tr
-- Student 2 (DevOps Engineer): Ulaş Koyuncu - 230304035 - ulas.koyuncu@stu.fbu.edu.tr
+- Student 2 (DevOps Engineer): Ulaş Koyuncu - 230304035 - ulas.koyuncu@stu.fbu.edu.tr / Muhammad Ahmed Satti - 230304185 - muhammad.satti@stu.fbu.edu.tr
 - Student 3 (C++ Developer): Muhammad Ahmed Satti - 230304185 - muhammad.satti@stu.fbu.edu.tr
 
 # Docker Hub Images
